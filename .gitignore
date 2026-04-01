@@ -2,6 +2,9 @@
 /.build
 /Packages
 xcuserdata/
+
+# Keep README tracked even if globally ignored on this machine.
+!README.md
 DerivedData/
 .swiftpm/
 *.xcodeproj
