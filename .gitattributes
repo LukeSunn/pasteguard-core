@@ -1,0 +1,4 @@
+* text=auto eol=lf
+
+*.swift linguist-language=Swift
+Package.swift linguist-language=Swift

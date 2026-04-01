@@ -1,0 +1,27 @@
+name: Feature Request
+description: Propose a new rule, capability, or developer workflow improvement
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What user or developer problem does this address?
+      placeholder: Explain the gap or limitation.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the API, detection rule, or workflow you want.
+      placeholder: Explain the proposed behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples or references
+      description: Share sample payloads, formats, standards, or links if helpful.

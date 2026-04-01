@@ -1,0 +1,37 @@
+name: Bug Report
+description: Report a reproducible problem in PasteGuardCore
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue. Please provide enough detail to reproduce the problem.
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug and the expected behavior.
+      placeholder: A clear and concise description of the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Provide steps, sample input, or a minimal code example.
+      placeholder: |
+        1. Create a RuleEngine instance
+        2. Scan this input...
+        3. Observe the incorrect result...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Share your OS, Xcode, Swift version, and package version.
+      placeholder: macOS 14, Xcode 15.4, Swift 5.9, PasteGuardCore 0.1.0
+    validations:
+      required: true
